@@ -12,7 +12,7 @@
         <H3 class="logo">facebook </H3>
         <form action="#" method="POST" class="formlog">
                  <!--O for do label, gera um id que vc escolhe o nome para vincular o texto ao id do input-->
-                <div class="emoutel">
+                <div class="email_tel">
                     <legend class="legendaup">Email ou telefone</legend>
                     <label for="logarcom"></label>
                     <input type="email" id="logarcom">
@@ -24,7 +24,7 @@
                     
                 
                 <input type="submit" value="Entrar" class="botao1">
-                <p>Esqueceu a conta?</p>
+                <p><a href="#">Esqueceu a conta?</a></p>
                 </div>
                 
         </form>
@@ -46,21 +46,31 @@
         <div class="pass_senha">    
             <input type="text" placeholder="Celular ou email" class="bloco">
             <input type="password" placeholder="Nova senha"class="bloco"> 
-            <h4>Data de nascimento</h4>
+            <h4 class="nas">Data de nascimento</h4>
         </div>
-        <select id="data">
-            
-        <option value="date"></option>
-        <option value="date"></option>
-        </select>
-    
+        <span class="dat">
+            <select id="data">
+                <option value="0">Dia</option>
+               
+            </select>
+            <select id="mes">
+                <option value="0">Mês</option>
+
+            </select>
+            <select id="ano">
+                <option value="0">Ano</option>
+
+            </select>
+        </span>
       <form> 
         <fieldset class="sexo"><!--A opção  name="tSexo" é igual para todos para impedir que dê erro ao selecionarem as opções -->
             <p class="gen">Gênero</p>
-            <label for="masculino"></label>
-            <input type="radio" name="tSexo" id="masculino"/>Feminino
-            <input type="radio" name="tSexo" id="feminino"/>Masculino
-            <input type="radio" name="tSexo" id="personalizado">Personalizado
+            <label><!-- O labelnesse caso faz com que ao clicar na palavra do input, ele também considere como uma escolha e não só no botão-->
+            <input type="radio" name="tSexo" id="masculino"/>Feminino</label>
+            <label>
+            <input type="radio" name="tSexo" id="feminino"/>Masculino</label>
+            <label>
+            <input type="radio" name="tSexo" id="personalizado">Personalizado</label>
 
             <p class="termos">Ao clicar em Cadastre-se, você concorda com os nossos <a href>Termos,<br>Política de provacidade</a> e <a href>Política de Cookies.</a>Você pode receber<br>notificações por SMS e pode cancelar isso quando quiser.</p>
             

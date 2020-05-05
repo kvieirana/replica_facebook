@@ -17,6 +17,7 @@
 
             .legendaup{
                 margin-bottom:6px;
+                
             }
 
             .botao1{
@@ -32,13 +33,26 @@
                 
               
             }
-            .emoutel{
+
+            .botao1:hover{
+                background-color:#3b5998;
+                transition-duration: 0.2s;
+                cursor:pointer;
+            }
+            .email_tel{
                 
                 color:white;
                 margin-top:-58px;
                 margin-left:785px;
-                padding-left:2px
+                
                          
+            }
+            .email_tel:visited a:active{
+                padding-left:5px;
+            }
+            .logarcom {
+                padding-left:10px;
+
             }
                       
             
@@ -57,11 +71,21 @@
                 height:21px;
             }
 
-            .senha1 p{
+            .formlog p{
                 margin-top:5px;
+            }
+            .formlog p a{
+                
+                text-decoration:none;
                 color:#a2b9e8;
                 font-size:12px;
                 
+                
+                
+            }
+            .senha1 a:hover, a:visited a:active{
+                text-decoration:underline;
+
             }
            
             .senha p{
@@ -165,10 +189,7 @@
                 
                 
             }
-            #data{
-                margin-left:57%;
-            }
-
+           
 
             .sexo{
                 font-family:Arial, Helvetica, sans-serif;                
@@ -179,9 +200,42 @@
                     
                 
             }
-          
 
-            .sexo .gen{
+      
+            .dat #data #mes #ano{
+                
+                height:100%;
+                
+            
+
+            }
+
+        
+            .dat {
+                    
+                width:20%;
+                height:40%;
+                margin-left:56%;
+                margin-top:10px;
+                display:inline-block;
+                font-weight: bold;
+                color:#818284;
+                font-family:Arial, Helvetica, sans-serif;
+                
+            }
+
+            .pass_senha .nas{
+                margin-top:20px;
+                margin-left:0px;
+                color:#818284;
+                font-size:16px;
+                font-family:Arial, Helvetica, sans-serif;
+                font-weight: bold;
+                
+
+            }
+             .gen{
+                
                 color:#818284;
                 font-size:16px;
                 font-family:Arial, Helvetica, sans-serif;
@@ -189,13 +243,28 @@
                 border-style:none;
                 margin-bottom: 10px;
                 margin-left:-12px;
+                margin-top:-80px;
                 
                 
             }
-  
+
+            input:focus{
+                outline:0px;
+            }
+            
+                   
+            #data, #mes, #ano{
+                margin-left:0;
+                padding:6px;
+                width:54px;
+                margin-right:-4px;
+                border: #afb0b1 solid 1px;
+
+            }
             .sexo{
                 word-spacing:22px;
                 border-style: none;
+                
             }
             
             .sexo .termos{
@@ -209,6 +278,10 @@
                 
                 
 
+            }
+            .termos a:hover, a:visited a:active{
+                text-decoration:underline;
+                cursor:pointer;
             }
 
             .sexo p{
@@ -227,7 +300,12 @@
                  border-radius:4px;
                  margin-left:-4%;
                  margin-top:23px;
+                 box-shadow: inset 0 1px 1px white;
                     
+             }
+             .btn2:hover{
+                 box-shadow: inset 2px 2px 30px #91c282;
+                 cursor:pointer;
              }
 
              a:link{
@@ -244,12 +322,17 @@
                 
                 
             }
+            .posbottom a:hover, a:visited a:active{
+                text-decoration:underline;
+                cursor:pointer;
+
+            }
              .finalpg{
                 
                 background-color:white;
                 height:130px;
                 width:auto;
-                margin-top:12%;
+                margin-top:7%;
                 word-spacing:13px;
                 font-size:12px;
                 font-family:Arial, Helvetica, sans-serif;
@@ -269,3 +352,4 @@
              .pgf{
                  line-height:20px;
              }
+             
