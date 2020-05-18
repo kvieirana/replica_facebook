@@ -1,294 +1,226 @@
 
             
-            *{margin:0;}/*CSS reset, você zera o user agent stylesheet do navegador para que vc escolhar cada medida e cor, existe o reset do Eric Meyer que é universal e o Normalize também, esse aqui eu fiz de acordo com minhas necessdades. Fim.*/
-            
-            body{
+            *{margin:0;}/*CSS reset, você zera o user agent stylesheet do navegador para que vc escolhar cada medida e cor, existe o reset do Eric Meyer que é universal e o Normalize também, esse aqui eu fiz de acordo com minhas necessdades. Fim.*/            
+            { 
                 background:#e7eaf3;
                 width:auto;
                 height:auto;
-            
             }
-            .formlog div {
-                width:19%;
+            #corpo{
+                background-color:white;
+                background-image: linear-gradient( to top, #d8dceb, white);
+            }   
+            #topo{
+                top:auto; 
+                width:100%;
+                background-color:#3b5998;
+                height:81px; 
+                border:#3b5998 1px solid;  
+            } 
+            .formlog .email_tel {
+                margin-left:69%;
+                width:11%;
+                height:3%;
+                top:2%;
+                font-size:14px;
+            }           
+            .logar1 .legendaup{
+                color:white;
                 font-family:Arial, Helvetica, sans-serif;
                 font-size:12px;
-            
+                margin-top:-2%;
+                width:30%;
             }
-
-            .legendaup{
-                margin-bottom:6px;
-                
+             .logar1{
+                position:absolute;
+                top:5%;
+                right:12%;
+                width:30%;
+                font-family:Arial, Helvetica, sans-serif;
+                font-size:11px;               
             }
-
+            .email_tel{                
+                color:white;            
+            }
             .botao1{
-                width:20%;
-                height:25px;
+                width:18%;
+                height:26%;
                 font-weight:bolder;
                 border:#233d72 1px solid;
                 background-color:#496eb7;
                 color:white;
-                margin-left:10px;
-                padding:2px;
-                border-radius:2px;
-                
-              
+                padding:1%;
+                border-radius:2px;             
             }
-
             .botao1:hover{
                 background-color:#3b5998;
                 transition-duration: 0.2s;
-                cursor:pointer;
+                cursor:pointer;          
             }
-            .email_tel{
-                
-                color:white;
-                margin-top:-58px;
-                margin-left:785px;
-                
-                         
+            .formlog #sen{              
+                margin-top:-37%;
+                margin-left:5%;
+                margin-bottom:50%;
             }
-            .email_tel:visited a:active{
-                padding-left:5px;
+            #senhalog{
+                margin-left:3%;
             }
-            .logarcom {
-                padding-left:10px;
-
-            }
-                      
-            
-            .senha1{
-                
-                color:white;
-                margin-top:-45px;
-                margin-left:950px;
-                
-              
-            }
-
             #logarcom, #senhalog{
                 border:solid 1px #000000;
-                width:148px;
-                height:21px;
+                width:33%;
+                padding:1%;;    
             }
-
             .formlog p{
-                margin-top:5px;
+                margin-top:1%;
+                margin-left:39%;
             }
-            .formlog p a{
+            .laterales{
                 
+                width:30%;
+                font-family: Helvetica, sans-serif;
+                margin-left:56%;
+                margin-top:3%;
+                font-size:18px;
+            }
+            .laterales p{
+                margin-top:1%;
+                font-size:19px;
+                margin-left:1%;
+            }   
+            .nome_sobre, .pass_senha{
+                margin-left:56%;
+                height:100%;
+                width:31%;
+                margin-top:1%;
+                color:#818284; 
+            }
+            .linha, .bloco{
+                font-size:18px;
+                border-radius:4px;
+                margin-bottom:5%;
+                border:solid 1px #abb6cc;
+                padding-left: 1%;
+                color:#b9bcc4;   
+            }
+            .linha{
+                display:inline-block;
+                width:43%;
+                padding:2%; 
+                margin:6px 3px 0 1px;
+            }
+            .bloco{
+                display:block;
+                width:94%;
+                padding:2%;
+                margin-bottom:10px;
+            }
+            .formlog p a{    
                 text-decoration:none;
                 color:#a2b9e8;
-                font-size:12px;
-                
-                
-                
+                font-size:12px; 
             }
-            .senha1 a:hover, a:visited a:active{
+            .logar1 a:hover, a:visited a:active{
                 text-decoration:underline;
-
             }
-           
             .senha p{
                 opacity:0.3;    
-
-            }
-            #topo{
-                position: absolute;
-                top:auto; 
-                width:100%;
-                background-color:#3b5998;
-                height:81px;              
-            } 
-           
+            }   
             .paragrafo1 {
                 position: absolute;
-                margin-top:8%;
+                margin-top:4%;
                 font-size:20px;
-                margin-left:184px;
+                margin-left:13%;
                 color:#143654;
                 font-family:Arial;
-                font-weight:bold;
-                padding:5px;
-                
-                
-
-                }
-            img{
-                
-                margin-top:14%;
-                margin-left:184px;
+                font-weight:bold;               
             }
-            
+            img{   
+                margin-top:11%;
+                margin-left:13%;
+            }          
             .logo{
                 
                 font-family: Helvetica, sans-serif;
                 color:white;
                 font-size:44px;
-                margin-left:184px;
-                margin-top:20px;
-                                 
-            }
-            
-            .laterales{
-                font-family: Helvetica, sans-serif;
-                margin-left:56%;
-                margin-top:-21%;
-                font-size:18px;
-                
-            
-            }
-            .laterales p{
-                margin-top:10px;
-                font-size:19px;
-            }
-        
-            
-            .nome_sobre, .pass_senha{
-                
-                margin-left:56%;
-                height:100%;
-                width:440px;
-                margin-top:1%;
-                color:#818284;
-                
-            }
-            .linha, .bloco{
-                font-size:18px;
-                border-radius:4px;
-                margin-bottom:5x;
-                border:solid 1px #abb6cc;
-                padding-left: 5px;
-                color:#b9bcc4;
-                
-                
-            }
-        
-            .linha{
-                display:inline-block;
-                width:192px;
-                height:40px;
-                margin:0 3px 0 1px;
-              
-            }
-            .bloco{
-                display:block;
-                width:396px;
-                height:40px;
-                margin-bottom:10px;
-
-            }
-
-            
-            
+                margin-left:13%;
+                margin-top:2%;                
+            }   
             .cadastro{
-                
                 margin-left:57%;
                 margin-top:20%; 
-                font-size:13px;
-                
-                
-                
+                font-size:13px;                
             }
-           
-
-            .sexo{
-                font-family:Arial, Helvetica, sans-serif;                
-                margin-left:56%;                       margin-top:6%;
-                height:90px;
-                width:30%;
-                font-size:18px;
-                    
-                
-            }
-
-      
-            .dat #data #mes #ano{
-                
-                height:100%;
-                
-            
-
-            }
-
-        
             .dat {
-                    
-                width:20%;
-                height:40%;
+                position:relative;
+                width:30%;
+                height:100%;
                 margin-left:56%;
-                margin-top:10px;
+                margin-top:0%;
                 display:inline-block;
-                font-weight: bold;
+                font-weight:bolder;
                 color:#818284;
-                font-family:Arial, Helvetica, sans-serif;
-                
+                font-family:Arial, Helvetica, sans-serif;   
             }
-
+            #corpo .sexo{
+                font-family:Arial, Helvetica, sans-serif;                
+                margin-left:56%;                       margin-top:1%;
+                height:30%;
+                width:30%;
+                font-size:18px; 
+            }
+            .dat #data #mes #ano{
+                height:100%;
+            } 
             .pass_senha .nas{
-                margin-top:20px;
-                margin-left:0px;
+                margin-top:5%;
+                margin-left:0%;
+                margin-bottom:1%;
                 color:#818284;
                 font-size:16px;
                 font-family:Arial, Helvetica, sans-serif;
                 font-weight: bold;
-                
-
             }
-             .gen{
-                
+             .gen{  
+                margin-top:-3%;
                 color:#818284;
                 font-size:16px;
                 font-family:Arial, Helvetica, sans-serif;
                 font-weight: bold;
                 border-style:none;
-                margin-bottom: 10px;
-                margin-left:-12px;
-                margin-top:-80px;
-                
-                
+                margin-bottom:3%;
+                margin-left:-3%;
+                width:20%;  
             }
-
             input:focus{
                 outline:0px;
-            }
-            
-                   
+            }      
             #data, #mes, #ano{
                 margin-left:0;
                 padding:6px;
                 width:54px;
                 margin-right:-4px;
                 border: #afb0b1 solid 1px;
-
             }
             .sexo{
                 word-spacing:22px;
-                border-style: none;
-                
+                border-style: none;   
             }
-            
-            .sexo .termos{
-                
+            .sexo .termos{               
                 color:#818284;
                 font-size:11px;
                 font-family:Arial, Helvetica, sans-serif;
-                margin-top:33px;
+                margin-top:30px;
                 margin-left:-4%;
                 word-spacing:0px;   
-                
-                
-
             }
             .termos a:hover, a:visited a:active{
                 text-decoration:underline;
                 cursor:pointer;
             }
-
             .sexo p{
                 word-spacing:0px;
             }
-           
-            
              .btn2{
                  background-color:#61a04e;
                  border:#587c4e 1px solid;
@@ -301,55 +233,49 @@
                  margin-left:-4%;
                  margin-top:23px;
                  box-shadow: inset 0 1px 1px white;
-                    
-             }
+                 }
              .btn2:hover{
                  box-shadow: inset 2px 2px 30px #91c282;
                  cursor:pointer;
-             }
-
+            }
              a:link{
-                 text-decoration:none;
-                 
-             }
+                 text-decoration:none;            
+            }
             .posbottom{
                 margin-left:40%;
                 color:#818284;
                 font-size:13px;
                 font-family:Arial, Helvetica, sans-serif;
                 margin-top:37px;
-                margin-left:-4%;                margin-bottom:-20px;
-                
-                
+                margin-left:-4%;                margin-bottom:-20px; 
+                font-weight:bold;                           
+            }
+            .posbottom a{
+                color:rgb(20, 64, 129);           
             }
             .posbottom a:hover, a:visited a:active{
                 text-decoration:underline;
                 cursor:pointer;
-
             }
-             .finalpg{
-                
+             .finalpg{                
                 background-color:white;
                 height:130px;
                 width:auto;
-                margin-top:7%;
+                margin-top:5%;
                 word-spacing:13px;
                 font-size:12px;
                 font-family:Arial, Helvetica, sans-serif;
                 padding:10px;
-                
-
-             }
+                background-color:white;
+            }
              .finalpg p{
                  margin-left:13%;
-                 padding:10px;
-                
-             }
-
+                 padding:10px;  
+            }
              .finalpg p a{
                  color:#285e91;
-             }
+            }
              .pgf{
                  line-height:20px;
-             }
+            }
              
