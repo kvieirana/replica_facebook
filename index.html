@@ -7,81 +7,83 @@
         <meta name="description" content="Réplicado do Facebook"><!--Descrição do projeto--> 
         <link href="css/estilo.css" rel="stylesheet"/>
     </head>
-<body>       
+<body id="corpo">     
     <header id="topo">
         <H3 class="logo">facebook </H3>
-        <form action="#" method="POST" class="formlog">
-                 <!--O for do label, gera um id que vc escolhe o nome para vincular o texto ao id do input-->
-                <div class="emoutel">
-                    <legend class="legendaup">Email ou telefone</legend>
-                    <label for="logarcom"></label>
-                    <input type="email" id="logarcom">
-                </div>
-                <div class="senha1">    
-                    <legend class="legendaup">Senha</legend>
-                    <label for="senhalog"></label><!--Não faz sentido ter isso se já tem a legenda, certo?-->
-                    <input type="password" id="senhalog">
+            <form action="#" method="POST" class="formlog">
+                    <!--O for do label, gera um id que vc escolhe o nome para vincular o texto ao id do input-->
+                    <div class="email_tel">
+                        
+                        <label for="logarcom"></label>
+                        
+                        <label for="senhalog"></label>
+                        <legend id="sen" class="legendaup">Senha</legend>        
+                    </div>
+                    <div class="logar1">  
+                        
+                        <legend class="legendaup">Email ou telefone </legend>
+                        <input type="email" id="logarcom">
                     
-                
-                <input type="submit" value="Entrar" class="botao1">
-                <p>Esqueceu a conta?</p>
-                </div>
-                
-        </form>
+                        <input type="password" id="senhalog">
+                        <input type="submit" value="Entrar" class="botao1">
+                        <p><a href="#">Esqueceu a conta?</a></p>
+                    </div> 
+                    <div class="laterales">
+                        <h1>Abra uma conta</h1>
+                            <p>É rápido e fácil.</p>
+                    </div>
+                    <div class="nome_sobre">            
+                        <input type="text" placeholder="Nome" class="linha">
+                        <input type="text" placeholder="Sobrenome" class="linha">
+                    </div>
+                    <div class="pass_senha">    
+                        <input type="text" placeholder="Celular ou email" class="bloco">
+                        <input type="password" placeholder="Nova senha"class="bloco"> 
+                            <h4 class="nas">Data de nascimento</h4>
+                    </div> 
+                    <div class="dat">
+                    <select id="data">
+                        <option value="0">Dia</option>
+                </select>
+                    <select id="mes">
+                        <option value="0">Mês</option>
+                </select>
+                    <select id="ano">
+                        <option value="0">Ano</option>
+                    </select> 
+                </div>             
+            </form>
     </header>
-   
-    <p class="paragrafo1">O Facebook ajuda você a se conectar e<br> compartilhar com as pessoas que fazem parte<br> da sua vida.</p>
-    <img src="imagens/OBaVg52wtTZ.png"/>
+        <div class="wrapper">
+            <p class="paragrafo1">O Facebook ajuda você a se conectar e<br> compartilhar com as pessoas que fazem parte<br> da sua vida.</p>
+            <img src="imagens/OBaVg52wtTZ.png"/>  
+            
+        </div>    
+ 
+        <form> 
+            <fieldset class="sexo"><!--A opção  name="tSexo" é igual para todos para impedir que dê erro ao selecionarem as opções -->
+                <p class="gen">Gênero</p>
+                <label><!-- O labelnesse caso faz com que ao clicar na palavra do input, ele também considere como uma escolha e não só no botão-->
+                <input type="radio" name="tSexo" id="masculino"/>Feminino</label>
+                <label>
+                <input type="radio" name="tSexo" id="feminino"/>Masculino</label>
+                <label>
+                <input type="radio" name="tSexo" id="personalizado">Personalizado</label>
 
-    <div class="laterales">
-    <h1>Abra uma conta</h1>
-    <p>É rápido e fácil.</p>
-    </div>   
-   
-        <div class="nome_sobre">
-            
-            <input type="text" placeholder="Nome" class="linha">
-            <input type="text" placeholder="Sobrenome" class="linha">
-        </div>
-        <div class="pass_senha">    
-            <input type="text" placeholder="Celular ou email" class="bloco">
-            <input type="password" placeholder="Nova senha"class="bloco"> 
-            <h4>Data de nascimento</h4>
-        </div>
-        <select id="data">
-            
-        <option value="date"></option>
-        <option value="date"></option>
-        </select>
-    
-      <form> 
-        <fieldset class="sexo"><!--A opção  name="tSexo" é igual para todos para impedir que dê erro ao selecionarem as opções -->
-            <p class="gen">Gênero</p>
-            <label for="masculino"></label>
-            <input type="radio" name="tSexo" id="masculino"/>Feminino
-            <input type="radio" name="tSexo" id="feminino"/>Masculino
-            <input type="radio" name="tSexo" id="personalizado">Personalizado
-
-            <p class="termos">Ao clicar em Cadastre-se, você concorda com os nossos <a href>Termos,<br>Política de provacidade</a> e <a href>Política de Cookies.</a>Você pode receber<br>notificações por SMS e pode cancelar isso quando quiser.</p>
-            
-            <input type="submit" value="Cadastre-se" class="btn2">
+                    <p class="termos">Ao clicar em Cadastre-se, você concorda com os nossos <a href>Termos,<br>Política de provacidade</a> e <a href>Política de Cookies.</a>Você pode receber<br>notificações por SMS e pode cancelar isso quando quiser.</p>
+                
+                <input type="submit" value="Cadastre-se" class="btn2">
                 <!--password, faz com que a pessoa digite a apareça um asterisco-->
                 <p class="posbottom"><a href>Criar uma página</a> para uma celebridade, banda ou empresa.</p>
-            </fieldset>
-       
+            </fieldset>       
     </form>
-        <footer>
-            <div class="finalpg">
-                <p>Português(Brasil) <a href>English(US) Español Français(France) Italiano Deutsch </a></p>
-                <hr>
-                <p class="pgf"><a href>Cadastre-se Entrar Messenger Facebook Lite Watch  Pessoas Páginas Categorias de Página Locais Jogos Locais Marketplace Grupos <br>Instagram Local Campanhas de arrecadação de fundos Serviços Sobre Criar anúncio Criar Página Desenvolvedores Carreiras Privacidade Cookies<br> Opções de anúncio Termos Ajuda Configurações</a></p>
-                <p>Facebook &copy; 2020</p>
-            </div>
-
-        </footer>
-
-    
-
+            <footer>
+                <div class="finalpg">
+                    <p>Português(Brasil) <a href>English(US) Español Français(France) Italiano Deutsch </a></p>
+                    <hr>
+                    <p class="pgf"><a href>Cadastre-se Entrar Messenger Facebook Lite Watch  Pessoas Páginas Categorias de Página Locais Jogos Locais Marketplace Grupos <br>Instagram Local Campanhas de arrecadação de fundos Serviços Sobre Criar anúncio Criar Página Desenvolvedores Carreiras Privacidade Cookies<br> Opções de anúncio Termos Ajuda Configurações</a></p>
+                    <p>Facebook &copy; 2020</p>
+                </div>
+            </footer>
 </body>
-
 </html>
