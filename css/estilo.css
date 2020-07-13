@@ -1,4 +1,5 @@
-            *{margin:0;}/*CSS reset, você zera o user agent stylesheet do navegador para que vc escolhar cada medida e cor, existe o reset do Eric Meyer que é universal e o Normalize também, esse aqui eu fiz de acordo com minhas necessdades. Fim.*/            
+            *{margin:0;}/*CSS reset, você zera o user agent stylesheet do navegador para que vc escolhar cada medida e cor, existe o reset do Eric Meyer que é universal
+e o Normalize também, esse aqui eu fiz de acordo com minhas necessdades. Fim.*/            
             { 
                 background:#e7eaf3;
                 width:auto;
