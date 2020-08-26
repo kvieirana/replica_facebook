@@ -5,20 +5,16 @@
             body{
                 background:#e7eaf3;
                 width:auto;
-                height:auto;
-            
+                height:auto;     
             }
             .formlog div {
                 width:19%;
                 font-family:Arial, Helvetica, sans-serif;
-                font-size:12px;
-            
+                font-size:12px;            
             }
-
             .legendaup{
                 margin-bottom:6px;
             }
-
             .botao1{
                 width:20%;
                 height:25px;
@@ -28,45 +24,31 @@
                 color:white;
                 margin-left:10px;
                 padding:2px;
-                border-radius:2px;
-                
-              
+                border-radius:2px;                        
             }
-            .emoutel{
-                
+            .emoutel{                
                 color:white;
                 margin-top:-58px;
                 margin-left:785px;
-                padding-left:2px
-                         
-            }
-                      
-            
-            .senha1{
-                
+                padding-left:2px;                         
+            }              
+            .senha1{               
                 color:white;
                 margin-top:-45px;
-                margin-left:950px;
-                
-              
+                margin-left:950px;                
             }
-
             #logarcom, #senhalog{
                 border:solid 1px #000000;
                 width:148px;
                 height:21px;
             }
-
             .senha1 p{
                 margin-top:5px;
                 color:#a2b9e8;
-                font-size:12px;
-                
+                font-size:12px;              
             }
-           
             .senha p{
                 opacity:0.3;    
-
             }
             #topo{
                 position: absolute;
@@ -74,8 +56,7 @@
                 width:100%;
                 background-color:#3b5998;
                 height:81px;              
-            } 
-           
+            }            
             .paragrafo1 {
                 position: absolute;
                 margin-top:8%;
@@ -84,49 +65,35 @@
                 color:#143654;
                 font-family:Arial;
                 font-weight:bold;
-                padding:5px;
-                
-                
-
-                }
-            img{
-                
+                padding:5px;                             
+             }
+            img{                
                 margin-top:14%;
                 margin-left:184px;
             }
-            
-            .logo{
-                
+            .logo{                
                 font-family: Helvetica, sans-serif;
                 color:white;
                 font-size:44px;
                 margin-left:184px;
-                margin-top:20px;
-                                 
-            }
-            
+                margin-top:20px;                                 
+            }            
             .laterales{
                 font-family: Helvetica, sans-serif;
                 margin-left:56%;
                 margin-top:-21%;
-                font-size:18px;
-                
-            
+                font-size:18px;              
             }
             .laterales p{
                 margin-top:10px;
                 font-size:19px;
-            }
-        
-            
-            .nome_sobre, .pass_senha{
-                
+            }       
+             .nome_sobre, .pass_senha{                
                 margin-left:56%;
                 height:100%;
                 width:440px;
                 margin-top:1%;
-                color:#818284;
-                
+                color:#818284;                
             }
             .linha, .bloco{
                 font-size:18px;
@@ -134,53 +101,35 @@
                 margin-bottom:5x;
                 border:solid 1px #abb6cc;
                 padding-left: 5px;
-                color:#b9bcc4;
-                
-                
-            }
-        
+                color:#b9bcc4;               
+            }        
             .linha{
                 display:inline-block;
                 width:192px;
                 height:40px;
                 margin:0 3px 0 1px;
-              
             }
             .bloco{
                 display:block;
                 width:396px;
                 height:40px;
-                margin-bottom:10px;
-
-            }
-
-            
-            
-            .cadastro{
-                
+                margin-bottom:10px;                 
+            }          
+            .cadastro{                
                 margin-left:57%;
                 margin-top:20%; 
-                font-size:13px;
-                
-                
-                
+                font-size:13px;  
             }
             #data{
                 margin-left:57%;
             }
-
-
             .sexo{
                 font-family:Arial, Helvetica, sans-serif;                
                 margin-left:56%;                       margin-top:6%;
                 height:90px;
                 width:30%;
-                font-size:18px;
-                    
-                
+                font-size:18px;              
             }
-          
-
             .sexo .gen{
                 color:#818284;
                 font-size:16px;
@@ -189,33 +138,22 @@
                 border-style:none;
                 margin-bottom: 10px;
                 margin-left:-12px;
-                
-                
             }
-  
             .sexo{
                 word-spacing:22px;
                 border-style: none;
             }
-            
             .sexo .termos{
-                
                 color:#818284;
                 font-size:11px;
                 font-family:Arial, Helvetica, sans-serif;
                 margin-top:33px;
                 margin-left:-4%;
                 word-spacing:0px;   
-                
-                
-
             }
-
             .sexo p{
                 word-spacing:0px;
             }
-           
-            
              .btn2{
                  background-color:#61a04e;
                  border:#587c4e 1px solid;
@@ -226,13 +164,10 @@
                  font-family:Arial, Helvetica, sans-serif;                  
                  border-radius:4px;
                  margin-left:-4%;
-                 margin-top:23px;
-                    
+                 margin-top:23px;     
              }
-
-             a:link{
-                 text-decoration:none;
-                 
+            a:link{
+                 text-decoration:none;   
              }
             .posbottom{
                 margin-left:40%;
@@ -240,12 +175,10 @@
                 font-size:13px;
                 font-family:Arial, Helvetica, sans-serif;
                 margin-top:37px;
-                margin-left:-4%;                margin-bottom:-20px;
-                
-                
+                margin-left:-4%;               
+                margin-bottom:-20px;
             }
-             .finalpg{
-                
+             .finalpg{ 
                 background-color:white;
                 height:130px;
                 width:auto;
@@ -253,16 +186,12 @@
                 word-spacing:13px;
                 font-size:12px;
                 font-family:Arial, Helvetica, sans-serif;
-                padding:10px;
-                
-
+                padding:10px; 
              }
              .finalpg p{
                  margin-left:13%;
                  padding:10px;
-                
              }
-
              .finalpg p a{
                  color:#285e91;
              }
